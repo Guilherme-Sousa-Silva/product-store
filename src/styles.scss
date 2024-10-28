@@ -13,3 +13,19 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 100%;
     max-width: 748px;
 }
+
+.card-title-color {
+    color: #fff;
+    padding: 8px;
+}
+
+.flexJustifyEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.paddingTopBot {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
