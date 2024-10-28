@@ -29,3 +29,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+.buttonWidth {
+    width: 6em;
+}
+
+.formColumns {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-action {
+    display: flex;
+    justify-content: end;
+}

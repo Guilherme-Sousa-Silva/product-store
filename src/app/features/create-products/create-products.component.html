@@ -1,4 +1,4 @@
-<form [formGroup]="form" (ngSubmit)="onSubmit()" class="paddingTopBot">
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="paddingTopBot formColumns">
     <mat-form-field>
         <mat-label>Título</mat-label>
             <input 
@@ -9,5 +9,7 @@
                 placeholder="Título">
     </mat-form-field>
 
-    <button type="submit">Salvar</button>
+    <section class="form-action">
+        <button mat-raised-button color="primary" type="submit" class="buttonWidth">Salvar</button>
+    </section>
 </form>
