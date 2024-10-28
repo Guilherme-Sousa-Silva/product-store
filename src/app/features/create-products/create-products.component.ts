@@ -55,10 +55,6 @@ export class CreateProductsComponent {
   }
 
   showMessage(message: string){
-    this.snackBar.open(message, 'Ok', {
-      duration: 3000,
-      horizontalPosition: 'center',
-      verticalPosition: 'top',
-    })
+    this.snackBar.open(message, 'Ok');
   }
 }
