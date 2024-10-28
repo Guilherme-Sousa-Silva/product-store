@@ -1,1 +1,13 @@
-<p>create-products works!</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="paddingTopBot">
+    <mat-form-field>
+        <mat-label>Título</mat-label>
+            <input 
+                matInput
+                type="text"
+                formControlName="title"
+                name="title"
+                placeholder="Título">
+    </mat-form-field>
+
+    <button type="submit">Salvar</button>
+</form>
