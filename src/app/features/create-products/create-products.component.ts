@@ -57,4 +57,8 @@ export class CreateProductsComponent {
   showMessage(message: string){
     this.snackBar.open(message, 'Ok');
   }
+
+  onBack() {
+    this.router.navigateByUrl('/');
+  }
 }
