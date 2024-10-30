@@ -44,3 +44,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     justify-content: end;
     gap: 1em;
 }
+
+.flex-list-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
