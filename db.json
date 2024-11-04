@@ -1,16 +1,8 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "Produto de teste 123"
-    },
-    {
       "id": "5187",
       "title": "Banana prata"
-    },
-    {
-      "id": "2132",
-      "title": "garrafa de agua"
     }
   ]
 }

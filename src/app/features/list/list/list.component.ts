@@ -29,4 +29,10 @@ export class ListComponent implements OnInit {
         this.products = product;
       })
   }
+
+  onReloadListChange(event: boolean) {
+    if (event) {
+      this.getAllProducts();
+    }
+  }
 }
