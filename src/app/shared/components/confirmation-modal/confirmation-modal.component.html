@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>Modal de confirmação</h2>
+<mat-dialog-content>
+  <p>{{ modalContent }}</p>
+</mat-dialog-content>
+<mat-dialog-actions class="justify-end ">
+  <button mat-button (click)="onNoClick()">Não</button>
+  <button mat-button (click)="confirm()" cdkFocusInitial>Sim</button>
+</mat-dialog-actions>

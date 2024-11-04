@@ -28,4 +28,8 @@ export class ProductsService {
   edit(product: Product) {
     return this.httpClient.put(`/api/products/${product.id}`, product);
   }
+
+  delete(id: any) {
+    return this.httpClient.delete(`/api/products/${id}`);
+  }
 }
