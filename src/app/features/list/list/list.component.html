@@ -6,5 +6,8 @@
     @for (product of products; track product.id) {
         <app-card [product]="product" (reloadListChange)="onReloadListChange($event)"></app-card>
     }
+    @empty {
+        <app-no-item></app-no-item>
+    }
 </section>
 
