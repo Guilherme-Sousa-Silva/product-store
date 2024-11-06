@@ -4,10 +4,14 @@
 
 <section class="flex-list-itens">
     @for (product of products; track product.id) {
-        <app-card [product]="product" (reloadListChange)="onReloadListChange($event)"></app-card>
+        @defer (on immediate) {
+            <app-card [product]="product" (reloadListChange)="onReloadListChange($event)"></app-card>
+        }
     }
     @empty {
-        <app-no-item></app-no-item>
+        @defer (on immediate) {
+            <app-no-item></app-no-item>
+        }
     }
 </section>
 
